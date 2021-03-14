@@ -94,7 +94,17 @@ go version devel +5d13781 Thu Oct 8 00:28:09 2020 +0000 linux/amd64
 
 
 $ GOUP_GO_HOST=golang.google.cn goup install # For Gophers in China, see https://github.com/owenthereal/goup/issues/2
+
 ```
+
+### Apple Silicon Support
+
+The current [release](https://github.com/owenthereal/goup/releases) doesn't have a build for darwin-arm64.
+
+
+Run `make build` in the project directory on your Apple Silicon device.
+
+Copy the executable generated, `bin/goup`, to `.go/bin`.
 
 ## How it works
 
